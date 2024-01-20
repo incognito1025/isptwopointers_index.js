@@ -1,18 +1,7 @@
 //index.js
-//Develop working JavaScript code for your algorithm(s). When the file is run, an example should be included to show that the function(s) work as intended.
-//Your code should be heavily commented with explanatory text, describing what is happening and why.
-
 
 /* 
 leetcode.com\'''
-
-
-
-
-\\
-
-
-
 
 26. Remove Duplicates from Sorted Array
 Given an integer array nums sorted in non-decreasing order, remove the duplicates 

@@ -60,14 +60,22 @@ let removeDuplicates = function(nums) {
 
 
 
-![](nikik.@Nikis-MacBook-Air isptwopointers % /Users/nikik./documents/git-test/isptwopointers/image.png
 
 ![Two Pointers](https://beginnersbug.com/two-pointer-algorithm/)
 
 ![nikik.@Nikis-MacBook-Air isptwopointers % /Users/nikik./documents/git-test/isptwopointers/image.png](image.png)
 
-####Big O Evaluation:
-The Two Pointers Algorithm is often associated with a linear time complexity, expressed as O(n), where "n" signifies the size of the input data structure. This efficiency results from the algorithm's ability to traverse the entire data structure once.
+
+![nikik.@Nikis-MacBook-Air isptwopointers % /Users/nikik./documents/git-test/isptwopointers/imageo1.png](image01.png)
+
+![nikik.@Nikis-MacBook-Air isptwopointers % /Users/nikik./documents/git-test/isptwopointers/image.png](image02.png)
+
+![Two Pointers](https://afteracademy.com/blog/what-is-the-two-pointer-technique/)
+
+
+
+## Big O Evaluation:
+The Two Pointers Algorithm is often associated with a linear time complexity and space, expressed as O(n), where "n" signifies the size of the input data structure. This efficiency results from the algorithm's ability to traverse the entire data structure once.
 
 The Two Linear Time Complexity (O(n)):**
 
@@ -85,24 +93,55 @@ The Two Linear Time Complexity (O(n)):**
    - In essence, Big O Evaluation helps us understand how fast an algorithm is, and the Two Pointers Algorithm's linear time complexity (O(n)) means it efficiently handles lists, especially when they're quite large.
 
 
-#####Use Cases:
+## Use Cases:
 The Two Pointers Algorithm is handy when dealing with problems that require a streamlined examination of pairs of elements or subarrays. It is particularly useful in scenarios where a straightforward approach might lack efficiency.
 
-
-######Edge Cases and Concerns:
+## Edge Cases and Concerns:
 Ensure that the input data structure is mutable if intending to make in-place modifications.
 Exercise caution in situations where the two pointers need to follow specific movement patterns or meet particular conditions.
 
-########Citations:
+Example with Mutability:
+
+   - Imagine if your list/array is like a puzzle, and you want to rearrange the pieces to solve it. The Mutability concern is like making sure the pieces can be moved around.
+
+ Movement Patterns:
+
+   - Think of this as making sure your fingers (pointers) move in a way that's expected.
+   - If there are specific rules for how the pointers should move or if they need to meet certain conditions, you need to pay extra attention to that.
 
 
 
-Your readme.md file should include an introduction to your algorithm(s), summarizing the purpose of the algorithm and an overview of how it works.
-Your readme.md file should also include an "Algorithm description" section that details, step-by-step, how the algorithm works. You may wish to use images or code examples to get the point across.
-Your readme.md file should also include a "Big O evaluation" section that examines the time complexity of the algorithm. It should state the correct complexity and describe why the algorithm has that complexity.
-Your readme.md file should also include a "Use cases" section that describes when this algorithm may be used.
-Your readme.md file should also include an "Edge cases and concerns" section that describes any constraints to using the algorithm or any situations where the algorithm will not yield the correct result.
-Your readme.md file should also include a "Citations" section where you provide links to any websites, videos, or other resources you used to help generate your code or your explanation.
-Any ChatGPT citations should include a link to the conversation or conversations you had with chatGPT
-Your readme.md file should be free from spelling errors and mistakes. Try to download the vscode extension spell checker, and/or copy the text to a google doc and use Grammarly to help you with the grammar
-Your readme.md file should be understandable and clear.
+## Citations:
+# Two-Pointer Algorithm Resources
+
+This repository explores the two-pointer algorithm in the context of arrays and JavaScript. Below are reputable resources to aid in your study and understanding of the two-pointer technique.
+
+## Learning Resources
+
+1. **GeeksforGeeks:**
+   - [Two Pointers Technique](https://www.geeksforgeeks.org/two-pointers-technique/)
+   - [Two pointers technique in array elements](https://www.geeksforgeeks.org/two-pointers-technique/)
+
+2. **LeetCode:**
+   - Explore problems tagged with "Two Pointers" on [LeetCode](https://leetcode.com/tag/two-pointers/). To solve these problems to practice the technique.
+
+3. **YouTube Tutorials:**
+   - [The "Two Pointers" Technique - Computer Science](https://www.youtube.com/watch?v=3gDVInOGqCQ) by HackerRank.
+   - [Two Pointer Technique - Problem Solving Technique](https://www.youtube.com/watch?v=Oi1fomNYp1c) by mycodeschool.
+
+4. **Medium Articles:**
+   - [Understanding the Two Pointer Technique](https://medium.com/i-math/understanding-the-two-pointer-technique-8f67d4c6a5f8) by I-Math.
+   - [Two Pointers Technique: Solving Pairs](https://medium.com/@lenchen1112/two-pointers-technique-solving-pairs-253db2026a48) by Chen-Lin.
+
+5. **Books:**
+   - "Cracking the Coding Interview" by Gayle Laakmann McDowell - Chapter on Two-Pointers.
+
+6. **Additional Book:**
+   - "Introduction to Algorithms" by Thomas H. Cormen, Charles E. Leiserson, Ronald L. Rivest, and Clifford Stein.
+
+7. **GitHub Repositories:**
+   - Used during lectures.
+
+
+
+
