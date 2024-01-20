@@ -114,33 +114,42 @@ Example with Mutability:
 ## Citations:
 # Two-Pointer Algorithm Resources
 
-This repository explores the two-pointer algorithm in the context of arrays and JavaScript. Below are reputable resources to aid in your study and understanding of the two-pointer technique.
-
-## Learning Resources
-
 1. **GeeksforGeeks:**
    - [Two Pointers Technique](https://www.geeksforgeeks.org/two-pointers-technique/)
    - [Two pointers technique in array elements](https://www.geeksforgeeks.org/two-pointers-technique/)
 
-2. **LeetCode:**
+2. **AfterAcademy:**
+   - [Two Pointers Technique](https://afteracademy.com/blog/what-is-the-two-pointer-technique/)
+   - [Two pointers technique in array elements](https://beginnersbug.com  two-pointer-algorithm/)
+
+3. **BeginnersBug:**
+   - [Two pointers technique in array elements](https://beginnersbug.com/two-pointer-algorithm/)
+
+4. **LeetCode:**
    - Explore problems tagged with "Two Pointers" on [LeetCode](https://leetcode.com/tag/two-pointers/). To solve these problems to practice the technique.
 
-3. **YouTube Tutorials:**
+5. **YouTube Tutorials:**
    - [The "Two Pointers" Technique - Computer Science](https://www.youtube.com/watch?v=3gDVInOGqCQ) by HackerRank.
    - [Two Pointer Technique - Problem Solving Technique](https://www.youtube.com/watch?v=Oi1fomNYp1c) by mycodeschool.
 
-4. **Medium Articles:**
+6. **Medium Articles:**
    - [Understanding the Two Pointer Technique](https://medium.com/i-math/understanding-the-two-pointer-technique-8f67d4c6a5f8) by I-Math.
    - [Two Pointers Technique: Solving Pairs](https://medium.com/@lenchen1112/two-pointers-technique-solving-pairs-253db2026a48) by Chen-Lin.
 
-5. **Books:**
+7. **Books:**
    - "Cracking the Coding Interview" by Gayle Laakmann McDowell - Chapter on Two-Pointers.
 
-6. **Additional Book:**
+8. **Additional Book:**
    - "Introduction to Algorithms" by Thomas H. Cormen, Charles E. Leiserson, Ronald L. Rivest, and Clifford Stein.
 
-7. **GitHub Repositories:**
+9. **GitHub Repositories:**
    - Used during lectures.
+
+10. **Books:**
+   - "Introduction to Algorithms" by Thomas H. Cormen, Charles E. Leiserson, Ronald L. Rivest, and Clifford Stein
+
+11. **ChatGPT:**
+   - ![ChatGPT](https://chat.openai.com/share/c36ede60-70e5-4a43-8516-f54756b139f9)
 
 
 
