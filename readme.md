@@ -30,7 +30,6 @@ let removeDuplicates = function(nums) {
             right++;
         }
     }
-
     return nums.length;
 };
 
@@ -84,13 +83,16 @@ The Two Linear Time Complexity (O(n)):**
    - In our context, "n" represents the size of the input data structure. It could be the number of elements in an array, the length of a list, or something similar.
 
    - For example, if you have an array with 5 elements, "n" would be 5.
-   
 
    - Linear time complexity, expressed as O(n), means that as you increase the size of the input data structure (often denoted by "n"), the time taken by the algorithm grows proportionally.
 
    - In simpler terms, if you double the size of the input, the algorithm takes roughly twice as much time.
    
    - In essence, Big O Evaluation helps us understand how fast an algorithm is, and the Two Pointers Algorithm's linear time complexity (O(n)) means it efficiently handles lists, especially when they're quite large.
+
+![nikik.@Nikis-MacBook-Air isptwopointers % /Users/nikik./documents/git-test/isptwopointers/image3.png](Image3.png)
+
+![Two Pointers](https://medium.com/@er.simar.aneja/understanding-linear-time-complexity-the-o-n-linear-search-algorithm-6c00ba69e510)
 
 
 ## Use Cases:
@@ -112,7 +114,7 @@ Example with Mutability:
 
 
 ## Citations:
-# Two-Pointer Algorithm Resources
+#### Two-Pointer Algorithm Resources
 
 1. **GeeksforGeeks:**
    - [Two Pointers Technique](https://www.geeksforgeeks.org/two-pointers-technique/)
@@ -120,33 +122,32 @@ Example with Mutability:
 
 2. **AfterAcademy:**
    - [Two Pointers Technique](https://afteracademy.com/blog/what-is-the-two-pointer-technique/)
-   - [Two pointers technique in array elements](https://beginnersbug.com  two-pointer-algorithm/)
-
+ 
 3. **BeginnersBug:**
    - [Two pointers technique in array elements](https://beginnersbug.com/two-pointer-algorithm/)
 
-4. **LeetCode:**
+4. **Medium**
+   - [Understanding Linear Time Complexity: The O(n) Linear Search](https://medium.com/@er.simar.aneja/understanding-linear-time-complexity-the-o-n-linear-search-algorithm-6c00ba69e510)
+
+5. **LeetCode:**
    - Explore problems tagged with "Two Pointers" on [LeetCode](https://leetcode.com/tag/two-pointers/). To solve these problems to practice the technique.
 
-5. **YouTube Tutorials:**
+6. **YouTube Tutorials:**
    - [The "Two Pointers" Technique - Computer Science](https://www.youtube.com/watch?v=3gDVInOGqCQ) by HackerRank.
    - [Two Pointer Technique - Problem Solving Technique](https://www.youtube.com/watch?v=Oi1fomNYp1c) by mycodeschool.
 
-6. **Medium Articles:**
+7. **Medium Articles:**
    - [Understanding the Two Pointer Technique](https://medium.com/i-math/understanding-the-two-pointer-technique-8f67d4c6a5f8) by I-Math.
    - [Two Pointers Technique: Solving Pairs](https://medium.com/@lenchen1112/two-pointers-technique-solving-pairs-253db2026a48) by Chen-Lin.
 
-7. **Books:**
+8. **Books:**
    - "Cracking the Coding Interview" by Gayle Laakmann McDowell - Chapter on Two-Pointers.
 
-8. **Additional Book:**
+9. **Additional Book:**
    - "Introduction to Algorithms" by Thomas H. Cormen, Charles E. Leiserson, Ronald L. Rivest, and Clifford Stein.
 
-9. **GitHub Repositories:**
+10. **GitHub Repositories:**
    - Used during lectures.
-
-10. **Books:**
-   - "Introduction to Algorithms" by Thomas H. Cormen, Charles E. Leiserson, Ronald L. Rivest, and Clifford Stein
 
 11. **ChatGPT:**
    - ![ChatGPT](https://chat.openai.com/share/c36ede60-70e5-4a43-8516-f54756b139f9)
