@@ -60,16 +60,13 @@ let removeDuplicates = function(nums) {
 
 
 
-
-
-
 ![](nikik.@Nikis-MacBook-Air isptwopointers % /Users/nikik./documents/git-test/isptwopointers/image.png
 
 ![Two Pointers](https://beginnersbug.com/two-pointer-algorithm/)
 
 ![nikik.@Nikis-MacBook-Air isptwopointers % /Users/nikik./documents/git-test/isptwopointers/image.png](image.png)
 
-Big O Evaluation:
+####Big O Evaluation:
 The Two Pointers Algorithm is often associated with a linear time complexity, expressed as O(n), where "n" signifies the size of the input data structure. This efficiency results from the algorithm's ability to traverse the entire data structure once.
 
 The Two Linear Time Complexity (O(n)):**
@@ -88,15 +85,15 @@ The Two Linear Time Complexity (O(n)):**
    - In essence, Big O Evaluation helps us understand how fast an algorithm is, and the Two Pointers Algorithm's linear time complexity (O(n)) means it efficiently handles lists, especially when they're quite large.
 
 
-Use Cases:
+#####Use Cases:
 The Two Pointers Algorithm is handy when dealing with problems that require a streamlined examination of pairs of elements or subarrays. It is particularly useful in scenarios where a straightforward approach might lack efficiency.
 
 
-Edge Cases and Concerns:
+######Edge Cases and Concerns:
 Ensure that the input data structure is mutable if intending to make in-place modifications.
 Exercise caution in situations where the two pointers need to follow specific movement patterns or meet particular conditions.
 
-Citations:
+########Citations:
 
 
 
