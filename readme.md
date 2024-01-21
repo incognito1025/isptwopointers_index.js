@@ -16,7 +16,7 @@ Consider the number of unique elements of nums to be k, to get accepted, you nee
 Change the array nums such that the first k elements of nums contain the unique elements in the order they were present in nums initially. The remaining elements of nums are not important as well as the size of nums.
 Return k.
 
-// Remove Duplicates from Sorted Array
+Remove Duplicates from Sorted Array
 
 let removeDuplicates = function(nums) {
     let left = 0;
@@ -37,7 +37,7 @@ let removeDuplicates = function(nums) {
 
 ###Explanation of problem:
 
-// Remove Duplicates from Sorted Array
+Remove Duplicates from Sorted Array
 
 let removeDuplicates = function(nums) {
     // Initialization of Pointers: left pointer initialized to the first element of array, index 0
