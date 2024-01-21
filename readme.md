@@ -117,8 +117,11 @@ Example with Mutability:
    - If there are specific rules for how the pointers should move or if they need to meet certain conditions, you need to pay extra attention to that.
 
  
-### Visual Introduction Two Pointer Introduction:
-   - https://youtu.be/On03HWe2tZM?feature=shared
+### If you would like to learn more, please feel free to explore the following youtube videos for your reference:
+   - **YouTube Tutorials:**
+   - [Visual Introduction to Two Pointer Algorithms](https://youtu.be/On03HWe2tZM?feature=shared) by Josh's DevBox.
+   - [Two Pointer Algorithm - Two Sum Problem](https://youtu.be/2wVjt3yhGwg?feature=shared) by JAVAAID.
+
 
 ## Citations:
 #### Two-Pointer Algorithm Resources
@@ -140,8 +143,8 @@ Example with Mutability:
    - Explore problems tagged with "Two Pointers" on [LeetCode](https://leetcode.com/tag/two-pointers/). To solve these problems to practice the technique.
 
 6. **YouTube Tutorials:**
-   - [The "Two Pointers" Technique - Computer Science](https://www.youtube.com/watch?v=3gDVInOGqCQ) by HackerRank.
-   - [Two Pointer Technique - Problem Solving Technique](https://www.youtube.com/watch?v=Oi1fomNYp1c) by mycodeschool.
+   - [Visual Introduction to Two Pointer Algorithms](https://youtu.be/On03HWe2tZM?feature=shared) by Josh's DevBox.
+   - [Two Pointer Algorithm - Two Sum Problem](https://youtu.be/2wVjt3yhGwg?feature=shared) by JAVAAID.
 
 7. **Medium Articles:**
    - [Understanding the Two Pointer Technique](https://medium.com/i-math/understanding-the-two-pointer-technique-8f67d4c6a5f8) by I-Math.
