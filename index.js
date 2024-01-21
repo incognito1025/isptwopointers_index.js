@@ -1,6 +1,4 @@
 //index.js
-
-
 /* 
 leetcode.com\'''
 
@@ -18,9 +16,7 @@ the unique elements in the order they were present in nums initially.
 The remaining elements of nums are not important as well as the size of nums.
 
 Return k.
-
 */
-
 /**
  * @param {number[]} nums
  * @return {number}
@@ -49,3 +45,10 @@ let removeDuplicates = function(nums) {
 
     return nums.length;
 };
+
+
+let nums = [1, 1, 2, 2, 2, 3, 4, 4, 5];
+let result = removeDuplicates(nums);
+
+console.log(result); // Output: 5
+console.log(nums);   // Modified array without duplicates: [1, 2, 3, 4, 5]
