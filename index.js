@@ -52,3 +52,5 @@ let result = removeDuplicates(nums);
 
 console.log(result); // Output: 5
 console.log(nums);   // Modified array without duplicates: [1, 2, 3, 4, 5]
+
+

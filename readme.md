@@ -16,11 +16,12 @@ Consider the number of unique elements of nums to be k, to get accepted, you nee
 Change the array nums such that the first k elements of nums contain the unique elements in the order they were present in nums initially. The remaining elements of nums are not important as well as the size of nums.
 Return k.
 
-Remove Duplicates from Sorted Array
+// Remove Duplicates from Sorted Array
 
 let removeDuplicates = function(nums) {
     let left = 0;
     let right = 1;
+
     while (right < nums.length) {
         if (nums[left] === nums[right]) {
             nums.splice(right, 1);
@@ -29,32 +30,40 @@ let removeDuplicates = function(nums) {
             right++;
         }
     }
+
     return nums.length;
-    };
-*/
-
-Explanation of problem:
-
-let removeDuplicates = function(nums) {
-    let left = 0; // Initialization of Pointers: left pointer initialized to the first element of array, index 0
-    let right = 1; // right pointer initialized to the second element of array, index 1
-    while (right < nums.length) { // Iterative Process: algorithm uses a while loop that continues until the right pointer reaches the end of the array;
-
-        if (nums[left] === nums[right]) { // Comparison of Elements: The algorithm compares the elements at the positions pointed to by left and right.
-
-            nums.splice(right, 1); //Removing Duplicates: If the elements at left and right are equal (indicating a duplicate), the algorithm removes the duplicate element using nums.splice(right, 1).
-
-        } else {  // Advancing Pointers: If no duplicate is found, the left and right pointers are both incremented by 1. This step ensures that the pointers move forward, examining the next pair of elements.
-
-            left++;  
-            right++; // The process continues until the right pointer reaches the end of the array.
-        }
-    }
-    return nums.length; // Returning Length: Finally, the function returns the length of the modified array, which now contains unique elements without duplicates.
 };
 
-*/
 
+###Explanation of problem:
+
+// Remove Duplicates from Sorted Array
+
+let removeDuplicates = function(nums) {
+    // Initialization of Pointers: left pointer initialized to the first element of array, index 0
+    let left = 0;
+    // right pointer initialized to the second element of array, index 1
+    let right = 1;
+
+    // Iterative Process: algorithm uses a while loop that continues until the right pointer reaches the end of the array;
+    while (right < nums.length) {
+        // Comparison of Elements: The algorithm compares the elements at the positions pointed to by left and right.
+        if (nums[left] === nums[right]) {
+            // Removing Duplicates: If the elements at left and right are equal (indicating a duplicate),
+            // the algorithm removes the duplicate element using nums.splice(right, 1).
+            nums.splice(right, 1);
+        } else {
+            // Advancing Pointers: If no duplicate is found, the left and right pointers are both incremented by 1.
+            // This step ensures that the pointers move forward, examining the next pair of elements.
+            left++;
+            right++;
+        }
+    }
+
+    // Returning Length: Finally, the function returns the length of the modified array,
+    // which now contains unique elements without duplicates.
+    return nums.length;
+};
 
 
 ![Two Pointers](https://beginnersbug.com/two-pointer-algorithm/)
