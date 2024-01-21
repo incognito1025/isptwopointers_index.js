@@ -21,7 +21,6 @@ Remove Duplicates from Sorted Array
 let removeDuplicates = function(nums) {
     let left = 0;
     let right = 1;
-
     while (right < nums.length) {
         if (nums[left] === nums[right]) {
             nums.splice(right, 1);
@@ -31,17 +30,14 @@ let removeDuplicates = function(nums) {
         }
     }
     return nums.length;
-};
-
+    };
 */
 
 Explanation of problem:
 
 let removeDuplicates = function(nums) {
     let left = 0; // Initialization of Pointers: left pointer initialized to the first element of array, index 0
-
     let right = 1; // right pointer initialized to the second element of array, index 1
-
     while (right < nums.length) { // Iterative Process: algorithm uses a while loop that continues until the right pointer reaches the end of the array;
 
         if (nums[left] === nums[right]) { // Comparison of Elements: The algorithm compares the elements at the positions pointed to by left and right.
@@ -57,6 +53,7 @@ let removeDuplicates = function(nums) {
     return nums.length; // Returning Length: Finally, the function returns the length of the modified array, which now contains unique elements without duplicates.
 };
 
+*/
 
 
 
