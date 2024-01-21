@@ -116,8 +116,9 @@ Example with Mutability:
    - Think of this as making sure your fingers (pointers) move in a way that's expected.
    - If there are specific rules for how the pointers should move or if they need to meet certain conditions, you need to pay extra attention to that.
 
-https://youtu.be/On03HWe2tZM?feature=shared
-<iframe width="560" height="315" src="https://www.youtube.com/embed/On03HWe2tZM?si=wD9GR-46u9bD-eT7" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+ 
+### Visual Introduction Two Pointer Introduction:
+   - https://youtu.be/On03HWe2tZM?feature=shared
 
 ## Citations:
 #### Two-Pointer Algorithm Resources
